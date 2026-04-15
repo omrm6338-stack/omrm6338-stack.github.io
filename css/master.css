@@ -1,0 +1,231 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.parent{   
+    width: 100%;
+    min-height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('images/project-photo.jpg');
+    justify-content: space-between;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+.study{
+    width: 30%;
+    height: 95%;
+    color: #0c451e;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.links{
+    width: 54%;
+    height: 95%;
+    color: #04892e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+.links  a{
+    width: 90px;
+    height: 30px;
+    border: 3px solid #04892e; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+     transition-delay: .1s;
+    transition-duration: .5s;
+}
+.links :hover{
+    background-color: #449c57;
+    color: black;
+    border: 3px solid black; 
+    text-decoration: underline;
+}
+.mid{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 67vh ;
+    font-size: 60px;
+    color: #0c451e;
+    text-transform: uppercase;
+}
+.focus{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    font-size: 45px;
+    color: #3d4632;
+    text-transform: uppercase;
+    text-shadow:  1px 1px 6px #041c01;
+}
+footer{
+    background-color: #2c461873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    height: auto;
+    padding: 20px;
+    
+}
+.head-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    text-transform: capitalize;
+    font-weight: 50px;
+}
+.body-contact{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('images/project-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parent-contact{
+    background-color: rgb(255, 255, 255, .15);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 59%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 0px 0px rgb(255, 255, 255, .2);
+    height: 64vh;
+    text-transform: uppercase;
+    position: relative;
+}
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    position: absolute;
+    left: 20%;
+    top: 62%;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-shadow: 1px 1px 6px  #1a365d ;
+}
+.parent-courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 85vh;
+    background-image: url('images/project-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+table{
+    background-color: rgb(255, 255, 255, .15);
+    min-width: 65%;
+    height: 67vh;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+thead{
+    border: 2px solid white;
+}
+th{
+    color: black;
+    font-size: 20px;
+    border-right:  1px solid rgb(255, 255, 255, .2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+tr, th{
+    border-bottom: 1px solid rgb(255, 255, 255, .2);
+}
+td{
+    border-left: 1px solid rgb(255, 255, 255, .2);
+    border-right: 1px solid rgb(255, 255, 255, .2);
+    padding: 20px;
+}
+.body-add{
+    background-image: url('images/project-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 85vh;
+}
+div h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-shadow: 1px 1px 6px  #1a365d ;
+    height: 28vh;
+    margin-top: 12vh;
+}
+form{
+    background-color: rgb(255, 255, 255, .15);
+    min-width: 45%;
+    height: 67vh;
+    border-collapse: collapse;
+    margin: 10px auto;
+    padding: 20px;
+    border: 3px solid black;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.submit input{
+    background-color: #000000;
+    color: white;
+    padding: 7px;
+}
