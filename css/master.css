@@ -246,7 +246,7 @@ form div{
         width: 100%;
     }
     .links a{
-        width: 70%;
+        width: 70% !important;
         text-align: center;
         margin: 0px;
         padding: 8px;
