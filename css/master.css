@@ -231,28 +231,33 @@ form div{
     padding: 7px;
 }
 @media (max-width: 768px){
-
+    .head{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px
+}
     .links{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
-        padding: 10px 0px;
+        padding: 8px;
         width: 100%;
     }
     .links a{
-        width: 80%;
+        width: 70%;
         text-align: center;
-        margin: 5px auto;
-        padding: 10px;
+        margin: 0px;
+        padding: 8px;
         border: 3px solid #04892e;
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 14px;
         display: block;
     }
     h1, .study-flow-text{
-        font-size: 1.8rem !important;
+        font-size: 28px !important;
+        margin-top: 30px;
         text-align: center;
     }
     .head h2{
